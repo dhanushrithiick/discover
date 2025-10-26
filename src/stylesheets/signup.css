@@ -100,7 +100,7 @@
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
-/* --- Button Styles --- */
+
 .btn {
   width: 100%;
   padding: 12px 16px;
@@ -109,7 +109,9 @@
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-bottom: 30px;
 }
+
 
 .btn-primary {
   background: #2563eb;
