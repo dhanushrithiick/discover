@@ -1,0 +1,167 @@
+/* Root container for full height layout */
+.signin-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f7fa;
+  font-family: "product sans light";
+}
+
+/* --- Split-Screen Layout --- */
+.signin-container {
+  display: flex;
+  width: 80%;
+  max-width: 1100px;
+  height: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+/* --- Left Branding Panel --- */
+.brand-panel {
+  flex: 1;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.brand-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.brand-tagline {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* --- Right Form Panel --- */
+.form-panel {
+  flex: 1;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/* Header Section */
+.signin-header {
+  margin-bottom: 30px;
+}
+
+.signin-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.signin-subtitle {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* --- Form Styles --- */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  color: #374151;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* --- Button Styles --- */
+.btn {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+/* --- Links --- */
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.form-link {
+  color: #2563eb;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.form-link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+  .signin-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .brand-panel {
+    padding: 30px;
+  }
+
+  .form-panel {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .brand-title {
+    font-size: 32px;
+  }
+
+  .signin-title {
+    font-size: 22px;
+  }
+}

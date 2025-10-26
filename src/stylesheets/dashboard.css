@@ -1,0 +1,51 @@
+.dashboard-hello-title{
+    font-size: 48px;
+    color: black;
+    margin-top: 47px;
+}
+
+.dashboard-hello-desc{
+    font-size: 16px;
+    color: #5F6368;
+    margin-top: 8px;
+    margin-bottom: 55px;
+}
+
+.overall-dashboard{
+    margin:0 60px
+}
+
+.dashboard-card-container{
+    height: 194px;
+    width: 181px;
+    background-color: #E8F0FF;
+    border-radius: 12px;
+     padding: 20px 23px;
+}
+
+.dashboard-card-content{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 19px;
+    
+}
+.dashboard-card-header{
+    font-size: 24px;
+    color: black;   
+    line-height: normal; 
+}
+
+.dashboard-card-content-desc{
+    font-size: 48px;
+}
+
+.cards-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+
+
+
