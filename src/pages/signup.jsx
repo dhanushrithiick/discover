@@ -73,7 +73,7 @@ export default function DiscoverSignIn() {
             <button type="submit" className="btn btn-primary">
               Sign In
             </button>
-            <p>email : admin@gmail.com</p><br/>
+            <p>email : admin@gmail.com</p>
             <p>password : 123456</p>
           </form>
         </div>
